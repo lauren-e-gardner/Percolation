@@ -9,11 +9,11 @@ Percolation describes the behavior of composite systems made of randomly distrib
 ## The Model
 A percolation system is represented as an n-by-n grid of sites, where:
 
-Each site is either open or blocked.
+* Each site is either open or blocked.
 
-A full site is an open site connected to an open site in the top row through a chain of neighboring open sites (left, right, up, or down).
+* A full site is an open site connected to an open site in the top row through a chain of neighboring open sites (left, right, up, or down).
 
-The system percolates if at least one open site in the bottom row becomes full.
+* The system percolates if at least one open site in the bottom row becomes full.
 
 ## How to Run the Code
 
